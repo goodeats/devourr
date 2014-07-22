@@ -5,11 +5,13 @@
     <tr>
       <th>Description</th>
       <th colspan="3"></th>
+      <th colspan="3"></th>
+      <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @pins.each do |pin| %>
+    <% @pins.each do |pin| %> # '=' only when trying to show something on the page
       <tr>
         <td><%= pin.description %></td>
         <td><%= link_to 'Show', pin %></td>
